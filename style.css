@@ -1,7 +1,10 @@
 * {
     margin: 0;
     padding: 0;
-    text-align: center;
+}
+
+em {
+    font-weight: bold;
 }
 
 header {
@@ -24,6 +27,10 @@ header nav ul a{
    color: black;
    transition: .5s;
 }
+
+header nav ul a.active{
+    color: tomato;
+ }
 
 header nav ul a:hover{
     color: tomato;
