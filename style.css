@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    height: 70px;
+    background: #ecf0f1;
+    margin-bottom: 50px;
+}
+
+header nav ul{
+    display: flex;
+    height: 70px;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+}
+
+header nav ul a{
+   text-decoration: none;
+   text-transform: uppercase;
+   color: black;
+   transition: .5s;
+}
+
+header nav ul a:hover{
+    color: tomato;
+ }
