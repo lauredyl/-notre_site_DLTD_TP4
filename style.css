@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Rubik', sans-serif;
 }
 
 em {
@@ -30,11 +31,107 @@ header nav ul a{
 
 header nav ul a.active{
     color: tomato;
- }
+}
 
 header nav ul a:hover{
     color: tomato;
- }
+}
+
+/* HOME */
+
+#home h2{
+    text-align: center;
+    margin-top: 50px;
+}
+
+#home h3{
+    text-align: center;
+    margin-top: 20px;
+}
+
+#home p{
+    text-align: left;
+    padding: 10px 200px;
+}
+
+.presentation {
+    display: flex;
+    height: 300px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.presentation h1{
+    text-decoration: underline;
+    font-size: 50px;
+}
+
+.presentation img{
+    width: 300px;
+}
+
+footer {
+    margin-top: 50px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 -2px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.l-IUT {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.description {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.l-IUT p {
+    padding: 0 100px;
+    margin: 0;
+    font-weight: 900;
+    font-size: 25px;
+}
+
+#imgIUT {
+    width: 40vw;
+    height: 80vh;
+    background-color: blue;
+    background-image: url("img/imgIUT.png");
+    background-size: cover;
+    display: block;
+    margin-left: 100px;
+}
+
+.numero {
+    display: flex;
+    justify-content: space-evenly;
+}
+.numero > div div {
+    text-align: center;
+}
+
+.numero > div div:first-child {
+    color: #f14343;
+    font-size: 100px;
+    font-weight: 900;
+    text-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.numero > div div:last-child {
+    font-size: 0.8em;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+
+  
 
  /* partie Audiovisuel */
 
